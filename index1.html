@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Green Computing Awareness Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-container">
+    <h1>🌱 Green Computing Awareness Game</h1>
+
+    <div id="question-box">
+        <p id="question"></p>
+        <button onclick="checkAnswer(0)">Option 1</button>
+        <button onclick="checkAnswer(1)">Option 2</button>
+    </div>
+
+    <p id="feedback"></p>
+
+    <div class="score-board">
+        <p>Score: <span id="score">0</span></p>
+        <p>Badge: <span id="badge">None</span></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
